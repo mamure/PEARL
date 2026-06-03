@@ -1,0 +1,9 @@
+Benchmark name;Program file;Spec file;Static inputs;Dynamic inputs;Source blocks;Source lines;Source statements;Residual blocks;Residual lines;Residual statements;Block reduction;Line reduction;Statement reduction;Static variables;Dynamic variables;Source assertions;Residual assertions;Warnings or notes;Raw output file
+FibPair;progs/FibPair.rl;progs/FibPair.spec;n = '10;;3;12;55;1;35;33;0.6666667;-1.9166667;0.4;3;0;0;11;PW specialization stalled on the dynamic-n attempt;out/FibPair.bench.txt
+Partition;progs/Partition.rl;progs/Partition.spec;n = '3, ys = '(1 . (2 . (3 . (4 . (5 . nil)))));;3;10;18;1;12;10;0.6666667;-0.2;0.4444444;4;0;0;4;Pointwise PE terminates with zero runtime steps (Infinx);out/Partition.bench.txt
+Encryption;progs/Encryption.rl;progs/Encryption.spec;key = '5555555;msg;6;23;204;58;232;143;-8.6666667;-9.0870;0.2990196;3;1;0;0;;out/Encryption.bench.txt
+RTM increment;progs/RTM/RTM.rl;progs/RTM/RTM-increment.spec;Start = '1, End = '6, Rules fixed;S_right;24;70;716;22;74;123;0.0833333;-0.0571429;0.8282123;12;1;0;8;;out/RTM-increment.bench.txt
+multiRev;progs/multiRev.rl;progs/multiRev.spec;l2 = '(1 . (2 . (3 . (4 . (5 . nil)))));l1;5;16;34;3;9;11;0.4000000;0.4375000;0.6764706;3;1;0;0;pointwise PE;out/multiRev.bench.txt
+BasicPW;progs/BasicPW.rl;progs/BasicPW.spec;a = '1, b = '1;;1;5;3;1;2;0;0.0000000;0.6000000;1.0000000;2;0;0;0;pointwise PE fully specializes to exit;out/BasicPW.bench.txt
+Repeat;progs/Repeat.rl;progs/Repeat.spec;n = '3, x = 'a;;3;11;19;1;2;0;0.6666667;0.8181818;1.0000000;3;0;0;0;pointwise PE fully specializes to exit;out/Repeat.bench.txt
+PRNG;progs/PRNG.rl;progs/PRNG.spec;seed = '(one . (nil . (nil . (one . nil)))), n = '14, raise = 'nil;;7;26;564;1;2;0;0.8571429;0.9230769;1.0000000;8;0;15;0;pointwise PE fully specializes to exit;out/PRNG.bench.txt

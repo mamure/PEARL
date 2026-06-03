@@ -1,0 +1,24 @@
+Initial interpretation
+Preprocessing UNI
+Specializing UNI
+Postprocessing UNI
+Interpreting UNI
+Interpreting UNI
+Checking output UNI
+Preprocessing PW
+Specializing PW
+Postprocessing PW
+Interpreting PW
+Interpreting PW
+Checking output PW
+-- Source program
+Total Steps: 216, Total Jumps: 250, Combined Total: 716
+Total Blocks: 24 (24), Total Lines: 70 (70), Asserts removed: 0/0
+-- Uniform PE
+Total Steps: 216 (216), Total Jumps: 250 (250), Combined Total: 716 (716)
+Speedup: 1.0x (1.0x)
+Total Blocks: 24 (24), Total Lines: 70 (70), Asserts removed: 0/0
+-- Pointwise PE
+Total Steps: 41 (41), Total Jumps: 41 (41), Combined Total: 123 (123)
+Speedup: 5.821x (5.821x)
+Total Blocks: 22 (22), Total Lines: 74 (74), Asserts removed: 0/8

@@ -1,0 +1,6 @@
+Error while execution: Assertion failed in Fi
+Initial interpretation
+LOG:
+"init"a=48 b=18 
+"loop"a=48 b=18 
+"loop"a=48 b=17 
